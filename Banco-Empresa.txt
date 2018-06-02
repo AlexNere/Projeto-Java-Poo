@@ -1,0 +1,22 @@
+create database empresa;
+
+CREATE TABLE IF NOT EXISTS `funcionario` (
+  
+`Codigo` int(11) NOT NULL AUTO_INCREMENT,
+  
+`Nome` varchar(100) DEFAULT NULL,
+  
+`Nascimento` varchar(10) DEFAULT NULL,
+  
+`Telefone` varchar(18) DEFAULT NULL,
+  
+`Estcivil` int(11) DEFAULT NULL,
+  
+`Sexo` int(11) DEFAULT NULL,
+  
+`Cargo` int(11) DEFAULT NULL,
+  
+`Observacao` varchar(200) DEFAULT NULL,
+  
+PRIMARY KEY (`Codigo`)
+)  DEFAULT CHARSET=utf8;
